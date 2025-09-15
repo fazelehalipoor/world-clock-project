@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
   <link rel="stylesheet" href="src/style.css">
   <title>World Clock</title>
 </head>
@@ -15,15 +18,15 @@
     </h1>
     <select>
       <option value=""> Choose a city</option>
-      <option value="">Tehran</option>
-      <option value="">Kyoto</option>
+      <option value="Asia/Tehran">Tehran</option>
+      <option value="Europe/London">London</option>
     </select>
-    <div class="city">
+    <div class="city" id="tehran">
       <div>
-        <h2>Los Angeles 🇺🇸</h2>
-        <div class="date">August 15th 2022</div>
+        <h2>Tehran 🇮🇷 </h2>
+        <div class="date"></div>
       </div>
-      <div class="time">1:48:15 <span class="abbreviation">AM</span></div>
+      <div class="time"><span class="abbreviation"></span></div>
     </div>
     <footer>This project was coded by <a href="https://github.com/fazelehalipoor" target="_blank">Fazeleh Alipoor</a>
       and is<a href="https://github.com/fazelehalipoor/world-clock-project" target="_blank"> open-sourced on
