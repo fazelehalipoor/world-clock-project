@@ -16,17 +16,20 @@
     <h1>
       World Clock
     </h1>
-    <select>
+    <select id="city">
       <option value=""> Choose a city</option>
       <option value="Asia/Tehran">Tehran</option>
       <option value="Europe/London">London</option>
+      <option value="America/New_York">New York</option>
     </select>
-    <div class="city" id="tehran">
-      <div>
-        <h2>Tehran 🇮🇷 </h2>
-        <div class="date"></div>
+    <div id="cities">
+      <div class="city" id="tehran">
+        <div>
+          <h2>Tehran 🇮🇷 </h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"><span class="abbreviation"></span></div>
       </div>
-      <div class="time"><span class="abbreviation"></span></div>
     </div>
     <footer>This project was coded by <a href="https://github.com/fazelehalipoor" target="_blank">Fazeleh Alipoor</a>
       and is<a href="https://github.com/fazelehalipoor/world-clock-project" target="_blank"> open-sourced on
